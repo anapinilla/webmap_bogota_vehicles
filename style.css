@@ -1,0 +1,413 @@
+
+
+body {background-color: rgb(25, 31, 42);}
+
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  margin: 0; 
+  padding: 20px;
+  background: rgb(0, 0, 0);
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+  
+h1 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255);
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+  
+.mapping {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+  margin: 0; 
+  padding: 20px;
+  background: rgb(25, 31, 42);
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: rgb(255, 255, 255);
+
+}
+
+.mapping a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+
+}
+
+.mapping a:hover {
+  text-decoration: underline;
+}
+
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  list-style: none;
+  align-items: center;
+  margin: 0; 
+  padding: 20px;
+  background: rgb(0, 0, 0);
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.footer a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: rgb(61, 61, 61);
+
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.publi_1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  margin: 0; 
+  padding: 20px;
+  background: rgb(25, 31, 42);
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.publi_1 a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: rgb(61, 75, 211);
+
+}
+
+.publi_1 a:hover {
+  text-decoration: underline;
+}
+
+ul.publi_1 a {
+  color:rgb(61, 75, 211);
+  font-weight: normal;
+  display: inline;
+  padding: 0;
+  line-height: 1.7;
+  size: 18px;
+}
+
+
+.publi_2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+  margin: 0; 
+  padding: 20px;
+  background: rgb(37, 41, 52);
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.publi_2 a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: rgb(61, 75, 211);
+
+}
+
+.publi_2 a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.paragraph {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  margin: 0; 
+  padding: 20px;
+  background: rgb(48, 54, 67);
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  text-align: justify;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.paragraph a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: rgb(61, 75, 211);
+}
+
+.paragraph a:hover {
+  text-decoration: underline;
+}
+ul.paragraph h2{
+  color: rgb(255, 255, 255);
+}
+ul.paragraph a {
+  color:rgb(61, 75, 211);
+  font-weight: bold;
+  display: inline;
+  padding: 0;
+  line-height: 1.7;
+}
+
+.deaths { 
+  fill: rgb(228, 94, 94);
+  fill-rule: nonzero;
+}
+
+.deaths:hover {
+  fill: rgb(61, 75, 211);
+  fill-opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shadow {
+  background-color: rgb(255, 255, 255); 
+  border: none;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  margin: 0 0 0 0;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.caption {
+  text-align: center;
+  padding: 10px 10px;
+  font-size: medium;
+  color: black;
+}
+
+
+
+
+h2 span {
+  background-color:white;
+  line-height: 2;
+}
+
+ul.mapping h2 {
+  color:white;
+}
+
+
+ul.publi_2 h2{
+  color: rgb(198, 167, 147);
+}
+
+
+
+
+ul.mapping a {
+  color:rgb(198, 167, 147);
+  font-weight: bold;
+  display: inline;
+  padding: 0;
+  line-height: 1.7;
+}
+
+ul.publi_2 a {
+  color:rgb(198, 167, 147);
+  font-weight: bold;
+  display: inline;
+  padding: 0;
+  line-height: 1.7;
+}
+
+
+
+ul.diary a {
+  color:rgb(230, 207, 204);
+  font-weight: bold;
+  display: inline;
+  padding: 0;
+  line-height: 1.7;
+}
+
+
+
+h3 {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 25px;
+    text-align: justify;
+    background-color: rgba(61, 61, 61, 0.0);
+    font-family: 'Helvetica Neue', sans-serif;
+}
+h3 span {
+    background-color:white;
+    line-height: 2;
+}
+
+ul.phrase a {
+    font-size: 20px;
+    color:rgb(230, 207, 204);
+    font-weight: bold;
+    display: inline;
+    padding: 0;
+}
+
+
+h4 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 35px;
+  text-align: center;
+  background-color: rgba(249, 249, 249, 0);
+  color: white;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+h5 {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 11px;
+  text-align: center;
+  color: black;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.phrase {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style: none;
+    align-items: center;
+    margin: 0; 
+    padding: 20px;
+    background-image: url("photos/26669.jpg");
+    background-size: cover;
+    width: 1440px;
+    height: 150px;
+    border: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+ 
+  }
+  
+.phrase a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: rgb(61, 61, 61);
+    background: rgb(250, 249, 247);
+
+  }
+  
+.phrase a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
